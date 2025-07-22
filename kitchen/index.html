@@ -1,53 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smart Kitchen app</title>
-    <link rel="stylesheet" href="/kitchen/src/index.css" />
-    <!-- <script src="smart-kitchen.js" defer></script> -->
-</head>
-
-<body>
-    <h1>Smart Kitchen</h1>
-    <main>
-        <!-- Ingredient inventory -->
-        <section class="user-story" id="inventory-section">
-            <h2>My Inventory</h2>
-            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Inventory" class="story-img" />
-            <p>Add ingredients to your inventory so you can quickly see what you have available.</p>
-            <form id="add-ingredient-form">
-                <input type="text" id="ingredient-name" placeholder="Enter ingredient name" required />
-                <button type="submit">Add</button>
-            </form>
-            <ul id="inventory-list"></ul>
-        </section>
-        <!-- Recipe suggestions -->
-        <section class="user-story" id="recipes-section">
-            <h2>Recipe Suggestions</h2>
-            <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="Recipes" class="story-img" />
-            <p>Get recipe suggestions based on what’s in your fridge so you don't have to know what to make.</p>
-            <div id="dietary-filters">
-                <label><input type="checkbox" value="vegan" /> Vegan</label>
-                <label><input type="checkbox" value="vegetarian" /> Vegetarian</label>
-                <label><input type="checkbox" value="gluten-free" /> Gluten-Free</label>
-            </div>
-            <button id="get-recipes-btn">Get Recipes</button>
-            <ul id="recipe-list"></ul>
-        </section>
-       <!-- Grocery List -->
-        <section class="user-story" id="grocery-section">
-            <h2>Grocery List</h2>
-            <img src="https://worksheets.clipart-library.com/images2/large-printable-grocery-list/large-printable-grocery-list-18.jpg?auto=format&fit=crop&w=400&q=80" alt="Grocery List" class="story-img" />
-            <p>Generate a grocery list from missing ingredients in recipes.</p>
-            <ul id="grocery-list"></ul>
-        </section>
-    </main>
-    <footer>
-        <p>2025 Smart Kitchen</p>
-    </footer>
-
-</body>
-
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
