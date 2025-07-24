@@ -1,0 +1,12 @@
+/* src/components/RecipeSuggestions/RecipeSuggestions.css */
+.recipe-list {
+  list-style: none;
+  padding: 0;
+}
+.recipe-list li {
+  margin-bottom: 0.5em;
+}
+.error {
+  color: var(--error-red, #c0392b);
+  font-weight: bold;
+}

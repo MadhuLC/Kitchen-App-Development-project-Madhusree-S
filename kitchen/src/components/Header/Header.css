@@ -1,0 +1,31 @@
+/* src/components/Header/Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3498db;
+  color: #fff;
+  padding: 1em 2em;
+  width: 100vw;
+  min-width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-sizing: border-box;
+}
+.header-title {
+  font-size: 2em;
+  margin: 0;
+}
+.header-nav a {
+  color: #fff;
+  margin-left: 1.5em;
+  text-decoration: none;
+  font-weight: 500;
+  transition: text-decoration 0.2s;
+}
+.header-nav a:hover {
+  text-decoration: underline;
+}

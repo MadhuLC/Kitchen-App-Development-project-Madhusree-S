@@ -1,0 +1,23 @@
+/* src/components/Footer/Footer.css */
+.footer {
+  background: #f1f1f1;
+  color: #636e72;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1em;
+  width: 100vw;
+  min-width: 100vw;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  z-index: 100;
+}
+.footer a {
+  color: #3498db;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}

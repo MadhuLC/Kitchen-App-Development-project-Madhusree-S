@@ -1,3 +1,74 @@
+# React Vite Smart Kitchen App
+
+## Overview
+
+A modern React app for managing your kitchen inventory, getting recipe suggestions, and generating grocery lists. Built with Vite, React 19, and tested with Jest.
+
+## Getting Started
+
+### Install dependencies
+
+```sh
+npm install
+```
+
+### Run the development server
+
+```sh
+npm run dev
+```
+
+### Build for production
+
+```sh
+npm run build
+```
+
+### Preview the production build
+
+```sh
+npm run preview
+```
+
+## Running Tests
+
+### Run all tests (Jest)
+
+```sh
+npm test
+```
+
+### Watch tests
+
+```sh
+npm run test:watch
+```
+
+### Run only SmartKitchen tests
+
+```sh
+npm run test:smartkitchen
+```
+
+## Linting
+
+```sh
+npm run lint
+```
+
+## Project Structure
+
+- `src/components/` - React components
+- `src/data/` - Recipe and dietary data
+- `jest.config.cjs` - Jest configuration
+- `babel.config.js` - Babel configuration
+
+## Notes
+
+- Uses Jest and @testing-library/react for robust component testing.
+- CSS modules are mocked in Jest for compatibility.
+- For any issues, check the configuration files or open an issue.
+
 # SmartKitchen App (React + Vite)
 
 This project is a modern React app built with Vite. It features a SmartKitchen component that helps users manage their kitchen inventory, get recipe suggestions, and generate grocery lists.

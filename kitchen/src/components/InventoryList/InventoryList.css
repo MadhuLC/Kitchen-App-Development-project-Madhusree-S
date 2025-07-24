@@ -1,0 +1,8 @@
+/* src/components/InventoryList/InventoryList.css */
+.inventory-list {
+  list-style: none;
+  padding: 0;
+}
+.inventory-list li {
+  margin-bottom: 0.5em;
+}

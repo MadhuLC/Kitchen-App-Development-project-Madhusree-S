@@ -1,0 +1,47 @@
+/* src/pages/Home/Home.css */
+.home-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+margin-left: 50vh;
+}
+.main-content {
+  /* max-width: 700px; */
+  /* margin: 32px auto; */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 32px;
+  box-sizing: border-box;
+  display: block;
+
+}
+
+.home-page h2 {
+  color: #3498db;
+  margin-bottom: 1em;
+}
+.features-section ul {
+  text-align: left;
+  margin: 1em auto 2em auto;
+  display: inline-block;
+}
+.try-link {
+  margin: 1.5em 0 0.5em 0;
+}
+.try-btn {
+  background: #3498db;
+  color: #fff;
+  padding: 0.7em 2em;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background 0.2s;
+}
+.try-btn:hover {
+  background: #217dbb;
+}
+.home-note {
+  margin-top: 1.5em;
+  color: #636e72;
+}
