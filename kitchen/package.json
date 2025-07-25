@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "jest --color",
@@ -13,8 +13,8 @@
     "test:smartkitchen": "jest src/components/SmartKitchen.test.jsx --color --verbose"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-router-dom": "^7.7.0"
   },
   "devDependencies": {
@@ -24,8 +24,8 @@
     "@eslint/js": "^9.30.1",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
+    "@types/react": "^18.0.38",
+    "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.6.0",
     "@vitest/ui": "^3.2.4",
     "babel-jest": "^29.7.0",
