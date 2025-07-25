@@ -85,7 +85,7 @@ export default function SmartKitchen() {
               onChange={e => setIngredient(e.target.value)}
               required
             />
-            <Button type="submit" variant="primary" disabled={!ingredient.trim()}>
+            <Button type="submit" variant="primary" enabled={!ingredient.trim()}>
               Add
             </Button>
           </form>
@@ -104,7 +104,7 @@ export default function SmartKitchen() {
             id="get-recipes-btn"
             variant="primary"
             onClick={handleGetRecipes}
-            disabled={inventory.length === 0}
+            enabled={inventory.length === 0}
             title={inventory.length === 0 ? 'Add ingredients to inventory first' : ''}
           >
             Get Recipes
